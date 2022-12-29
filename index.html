@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>General Assembly</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <h1> Car Service Service Request</h1>
+
+    <form>
+      <label for="name">Customer's information:</label>
+      <p>Last name :</p><input type="text" id="lastname" placeholder="last name">
+      <p>First name :</p><input type="text" id="firstname" placeholder="first name">
+      <p>Phone number:</p><input type="text" id="phonenumber" placeholder="phone number">
+      <p>address:</p><input type="text" id="state" placeholder="state">
+      <input type="text" id="city" placeholder="city">
+      <input type="text" id="street" placeholder="street">
+      <p>Email:</p><input type="text" id="email" placeholder="email">
+      <label for="carkind">Car brand:</label>
+      <select name="carkind">
+        <option value="Ford">Ford</option>
+        <option value="Hyundai">Hyundai</option>
+        <option value="Kia">Kia</option>
+        <option value="Toyota">Toyota</option>
+        <option value="BMW">BMW</option></select>
+        <p>Car type:</p>
+        <input type="radio" value="coupe" name="kind">
+        <label for="cartype">coupe</label>
+        <input type="radio" value="sedan" name="kind">
+        <label for="cartype">sedan</label>
+        <input type="radio" value="truck" name="kind">
+        <label for="cartype">truck</label>
+        <input type="radio" value="SUV" name="kind">
+        <lable for="cartype">SUV</lable>
+        
+        <p>Detail:</p>
+        <textarea rows="5" cols="50"></textarea>
+    <p>Desired service date:</p><input type="date" id="date" placeholder="YYYY-MM-DD">
+    <p>Desired service time:</p><input type="time" id="time">
+
+    <button>Submit</button>
+
+      </select>
+
+    </form>
+  </body>
